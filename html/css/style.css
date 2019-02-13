@@ -1,0 +1,350 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic|Great+Vibes&subset=latin,latin-ext);
+    *{
+        margin: 0;
+        padding:0;
+    }
+    body{
+        font-family: 'Source Sans Pro',Helvetica,Arial,sans-serif;
+    }
+    
+    .background{
+        background-image: url("../img/background.jpg");
+        width: 100%;
+        padding: 0px 0 50px 0;
+    }
+
+    .container-main{
+        background-color:#fff;
+        margin: 0 auto;
+        width: 980px;
+        box-shadow: 0 0 24px rgba(0,0,0,.8);
+        min-height: 500px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .header{
+        position: relative;
+    }
+
+    .all-title{
+        padding:30px 0;
+    }
+
+    .header .Title {
+        margin-left:110px;
+        line-height: 52px;
+        padding:6px 0;
+    }
+
+    .header .SubTitle {
+        font-size: 22px;
+        color: black;
+        margin-left:120px;
+    }
+
+    .header .fa-heart{
+        font-size: 90px;
+        color: #948450;
+        float: left;
+       
+    }
+
+    .header .logo{
+        position: absolute;
+        padding:6px 0 2px 0;
+        margin-left:16px;
+    }
+
+    .title a{
+        margin-left:110px;
+        font-size: 56px;
+        font-family: 'Great Vibes',cursive,Helvetica,Arial,sans-serif;
+        color: #948450;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .title a:hover{
+        text-decoration: underline;
+    }
+    .menu{
+        background-color: #F0E2BD;
+    }
+    .menu ul {
+        list-style:none;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        line-height: 32px;
+        padding:0 15px;
+    }
+    .menu ul li{
+        display: inline-block;
+    }
+
+    .menu ul li.active a {
+    font-weight: bold;
+    }
+
+    .menu ul li:hover a{
+        text-decoration: underline;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .fl {
+        float: left;
+    }
+
+    .fr {
+        float: right;
+    }
+
+    .sidebar {
+        width: 220px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    }
+
+    .content {
+        width: 700px;
+    }
+
+    .blog-item {
+        margin-left: 65px;
+    }
+    .line {
+        height: 1px;
+        border-bottom: 3px dotted #ccc;
+        margin-bottom: 20px;
+    }
+    .heading{
+        margin: 20px 0;
+    }
+    .heading .page-title{
+        font-family: 'Great Vibes',cursive,Helvetica,Arial,sans-serif;
+        font-size: 36px;
+        line-height: 33.8px;
+        font-weight: 400;
+    }
+
+    .blog-photo {
+        position: relative;
+        
+    }
+    .blog-photo .blog-title{
+        margin-bottom: 10px;
+    }
+
+    .blog-photo .fa-camera-retro{
+        position: absolute;
+        font-size: 40px;
+        left:-66px;
+        top: 6px;
+    }
+
+
+    .blog-photo a{
+        left:0;
+        font-size: 20px;
+        color: black;
+        float: left;
+
+    }
+
+    .blog-photo .date-text{
+        float:right;
+        font-style: italic;
+    }
+
+    .blog-photo #img{
+        border-radius: 10px;
+    }
+
+    .blog-article {
+        position: relative;
+    }
+
+    .blog-article .fa-feather-alt{
+        font-size:40px;
+        position: absolute;
+        left: -68px;
+    }
+
+    .blog-article .date-text{
+        position: absolute;
+        right: 0px;
+        font-style: italic;
+    }
+    
+    .blog-article a{
+        font-size: 22px;
+        color: black;
+        position: absolute;
+        left:0px;
+    }
+
+    .blog-article .content-paragraph{
+        font-size: 20px;
+        font-style: italic;
+        margin-top: 40px;
+        border-left: solid 5px black;
+        display: inline-block;
+    }
+
+    .blog-article p{
+        padding-left: 20px;
+    }
+
+    .blog-article small{
+     padding-left: 20px;
+     font-style: initial;
+    }
+    .diary{
+        position: relative;
+    }
+
+    .diary .fa-pencil-alt{
+        font-size: 34px;
+        position: absolute;
+        left: -68px;
+    }
+
+    .diary a{
+        position: absolute;
+        left:0px;
+        font-size: 22px;
+        color: black;
+    }
+
+    .diary .date-text{
+        position: absolute;
+        right:0px;
+        font-style: italic;
+    }
+
+    .diary .content-diary{
+        margin-top:40px;
+        display: inline-block;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    .diary .photo2{
+        float: left;
+        margin-right: 20px;
+    }
+    
+    .diary img{
+        border-radius: 10px;
+    }
+    
+    .quote{
+        position: relative;
+    }
+
+    .quote .fa-quote-left{
+        font-size: 37px;
+        position: absolute;
+        left: -68px;
+    }
+
+    .quote .date-text{
+        position: absolute;
+        right: 0px;
+        font-style: italic;
+    }
+
+    .quote a{
+        font-size: 22px;
+    color: black;
+    }
+
+    .quote .content-quote{
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: right;
+        font-weight: 400;
+        padding-right: 20px;
+        border-right: 5px solid black;
+    }
+
+    .quote p{
+        font-style: italic;
+    }
+
+    .quote small cite{
+        margin-right: 15px;
+        font-style: normal;
+    }
+
+    .fr .content-fr{
+        margin:11px 15px;
+    }
+
+    .fr a{
+        color:black;
+    }
+    .fr h4{
+        margin-bottom: 15px;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .fr i{
+        margin-right: 7px;
+    }
+
+    .overview{
+        text-align: center;
+        margin: 22px 0;
+        
+    }
+
+    .overview a{
+        color: black;
+    }
+    
+    .a-line{
+        margin: 0 20px;
+    
+    }
+
+    a-line hr{
+        color: #cccccc;
+        margin: 0 10px;
+    }
+
+    .footer-page-counter {
+        padding: 33px 20px 44px 20px;
+        position: relative;
+    }
+
+    .footer-page-counter a{
+        color:black;
+        font-size: 14px;
+    }
+
+    .footer-page-counter  .view{
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+    }
+
+    .footer-page-counter .footer-page-counter-item{
+        box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        padding: 0 4px;
+        font-weight: bold;
+        border-radius: 5px;
+    }

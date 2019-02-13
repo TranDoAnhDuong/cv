@@ -1,0 +1,36 @@
+.overview-button .title {
+    font-family: 'Great Vibes', cursive, Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+.overview-button .over-line {
+    border: 0.5px solid #DDDDDD;
+    margin: 10px 0;
+}
+
+.overview-button p {
+    display: inline-block;
+}
+
+.overview-button .date {
+    float: right;
+}
+
+.over-content{
+    position:relative;
+}
+
+.over-content .fa-thumbs-up{
+    position: absolute;
+    left: 190px;
+}
+
+.over-content .fa-comment{
+    position: absolute;
+    left: 380px;
+}
+
+.over-content p{
+    float:right;
+}

@@ -1,0 +1,19 @@
+.wishlist{
+    margin: 50px 20px;
+}
+
+.wishlist h3{
+    margin: 10px 0 40px;
+    font-family: 'Great Vibes',cursive,Helvetica,Arial,sans-serif;
+    font-size: 36px;
+    line-height: 33.8px;
+    font-weight: 400;
+}
+
+.wishlist p{
+    line-height:35px;
+}
+
+.wishlist p a{
+    color:black;
+}

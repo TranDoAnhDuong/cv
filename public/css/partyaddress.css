@@ -1,0 +1,26 @@
+.partyaddress .title{
+    font-family: 'Great Vibes',cursive,Helvetica,Arial,sans-serif;
+    font-size: 36px;
+    margin: 20px 0
+}
+
+.partyaddress .address{
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+.partyaddress .email{
+    position: relative;
+}
+
+.partyaddress .email a{
+    position: absolute;
+    left: 80px;
+    color: black;
+}
+
+.partyaddress .a-line{
+    height: 1px;
+    border-bottom: 3px dotted #ccc;
+    margin: 12px 0
+} 
